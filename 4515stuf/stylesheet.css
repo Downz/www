@@ -1,0 +1,35 @@
+
+body {
+    text-align: center
+}
+
+/*
+
+Følgende CSS kode er lånt som styling til opgaven, fra nedenstående side og redigeret en smule.
+
+https://css-tricks.com/complete-guide-table-element/
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Patua+One|Open+Sans);
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+button, input {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 8.1);
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 8.1);
+    box-shadow: 2px 2px 3px;
+}
+
+button:hover{
+    box-shadow: 3px 3px 6px;
+}
+
